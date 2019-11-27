@@ -1,0 +1,9 @@
+.dayContainer {
+  display: flex;
+  flex: 100%;
+  padding: 0.3rem;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #637381;
+  text-align: center;
+}

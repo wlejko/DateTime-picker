@@ -1,0 +1,61 @@
+/*one day*/
+.Day {
+  display: block;
+  flex: 100%;
+  width: 14%;
+  margin: 0;
+  padding: 0.4rem;
+  background: transparent;
+  border: 1px solid #dfe3e8;
+  outline: none;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*empty days*/
+.emptyDay {
+  display: block;
+  flex: 100%;
+  width: calc(100% / 7);
+  margin: 0;
+  padding: 0.4rem;
+  border: 1px solid #dfe3e8;
+}
+
+/*week display*/
+.Week {
+  display: flex;
+}
+
+/*display for date and time*/
+.MonthContainer {
+  flex-wrap: wrap;
+}
+
+/*container for short week days names*/
+.dayContainer {
+  display: flex;
+  flex: 100%;
+  padding: 0.3rem;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #637381;
+  text-align: center;
+}
+
+/*display current date and year */
+.infoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*media queries*/
+@media (max-width: 1030px) {
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

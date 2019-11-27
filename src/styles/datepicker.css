@@ -1,0 +1,66 @@
+/*main container for date and time*/
+.container {
+  width: 30vw;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  min-width: 260px;
+  min-height: 280px;
+  height: 50vh;
+}
+
+/*month and year style*/
+.forTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  text-align: center;
+  outline: none;
+}
+
+.WeekdayContainer {
+  display: flex;
+}
+
+/*buttons*/
+.changeButton {
+  background: transparent;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  margin: 0px 8px;
+  color: #51eaea;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.clockContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 8px;
+  width: 100%;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1030px) {
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-height: 340px) {
+  .titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
